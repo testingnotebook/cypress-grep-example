@@ -1,0 +1,28 @@
+{
+  "name": "cypress-cloud-example",
+  "version": "1.0.0",
+  "description": "An example repo using the running tests on cypress cloud in parallel on GitHub Actions Containers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/testingnotebook/cypress-cloud-example.git"
+  },
+  "keywords": [
+    "cypress",
+    "parallel"
+  ],
+  "author": "Aaron Williams",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/testingnotebook/cypress-cloud-example/issues"
+  },
+  "homepage": "https://github.com/testingnotebook/cypress-cloud-example#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@cypress/grep": "^4.0.0",
+    "cypress": "^13.3.0"
+  }
+}
