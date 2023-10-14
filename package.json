@@ -4,7 +4,8 @@
   "description": "An example repo using the running tests on cypress cloud in parallel on GitHub Actions Containers.",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run"
+    "test": "cypress run",
+    "test:tag1": "cypress run --env grepTags=@example-tag-1"
   },
   "repository": {
     "type": "git",

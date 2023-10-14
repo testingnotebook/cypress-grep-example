@@ -2,7 +2,7 @@
 
 [![Cypress Tests](https://github.com/testingnotebook/cypress-grep-example/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/testingnotebook/cypress-grep-example/actions/workflows/main.yml)
 
-This project supports the following blog post https://www.testingnotebook.com/tagging-cypress-tests-with-cypress-grep/ which demonstrates how to tag Cypress tests in order to run tests for just a selected group.
+This project supports the following blog post https://www.testingnotebook.com/posts/tagging-cypress-tests-with-cypress-grep/ which demonstrates how to tag Cypress tests in order to run tests for just a selected group.
 
 ## Clone project
 
@@ -22,6 +22,8 @@ npm i
 npm t
 ```
 
-## Run tests on Cypress Cloud
+## Run tests only tagged as @example-tag-1
 
-See the workflow in `.github/workflows` on how to do this as a GitHub Workflow.
+```bash
+npm run test:tag1
+```
