@@ -1,4 +1,4 @@
-# cypress-cloud-example
+# cypress-grep-example
 
 [![Cypress Tests](https://github.com/testingnotebook/cypress-grep-example/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/testingnotebook/cypress-grep-example/actions/workflows/main.yml)
 
