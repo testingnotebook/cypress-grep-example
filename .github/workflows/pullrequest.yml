@@ -15,7 +15,7 @@ jobs:
           command: npm run test:tag1
 
       - name: Upload screenshots
-        uses: actions/upload-artifact@v5.0.0
+        uses: actions/upload-artifact@v6.0.0
         if: failure()
         with:
           name: cypress-screenshots
