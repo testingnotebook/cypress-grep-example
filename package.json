@@ -23,7 +23,7 @@
   "homepage": "https://github.com/testingnotebook/cypress-cloud-example#readme",
   "dependencies": {},
   "devDependencies": {
-    "@cypress/grep": "^4.0.0",
+    "@cypress/grep": "^6.0.0",
     "cypress": "^15.0.0"
   }
 }
